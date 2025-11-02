@@ -1,0 +1,163 @@
+/* استایل عمومی کل صفحه */
+body {
+
+
+    font-family: "Vazirmatn", sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: center;
+}
+
+/* نوار بالا */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2652d6;
+    color: white;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+}
+
+/* چینش لوگو و منو کنار هم */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+
+
+}
+
+/* ✅ تنظیم اندازه لوگو */
+.logo {
+
+    height: 80px;
+    /* اینو کم یا زیاد کن تا کوچیک یا بزرگ شه */
+    width: 20vw 257.12px;
+    object-fit: contain;
+    flex-basis: 120px;
+    flex: 0 0 100px;
+
+}
+
+.logo img {
+
+    width: 20vw;
+    height: auto;
+
+
+
+}
+
+/* منو */
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    color: #0d6efd;
+}
+
+main {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(187, 28, 28);
+    padding: 10px 30px;
+    flex-wrap: wrap;
+    flex-direction: row
+}
+
+main p {
+    font-family: "Vazirmatn", sans-serif;
+    /* یا هر فونتی که بخوای */
+    color: #163fc3;
+    /* 🎨 رنگ متن */
+    font-size: 2rem;
+    /* اندازه متن */
+    font-weight: bold;
+    /* ضخامت */
+    margin: 10px 0;
+}
+
+main p2 {
+    font-family: "Vazirmatn", sans-serif;
+    /* یا هر فونتی که بخوای */
+    color: #020202;
+    /* 🎨 رنگ متن */
+    font-size: 1.5rem;
+    /* اندازه متن */
+    font-weight: bold;
+    /* ضخامت */
+    margin: 10px 0;
+}
+
+/* دکمه */
+main button {
+    background-color: #2652d6;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+main button:hover {
+    background-color: #1b3ca7;
+}
+
+main 2 {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    color: rgb(187, 28, 28);
+    padding: 10px 30px;
+    flex-wrap: wrap;
+    flex-direction: row
+}
+
+main p3 {
+    font-family: "Vazirmatn", sans-serif;
+    /* یا هر فونتی که بخوای */
+    color: #30a920;
+    /* 🎨 رنگ متن */
+    font-size: 1.5rem;
+    /* اندازه متن */
+    font-weight: bold;
+    /* ضخامت */
+    margin: 10px 0;
+}
+
+main p4 {
+    font-family: "Vazirmatn", sans-serif;
+    /* یا هر فونتی که بخوای */
+    color: #0a2e61;
+    /* 🎨 رنگ متن */
+    font-size: 1.5rem;
+    /* اندازه متن */
+    font-weight: bold;
+    /* ضخامت */
+    margin: 10px 0;
+}
